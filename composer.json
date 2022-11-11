@@ -1,0 +1,29 @@
+{
+    "name": "kevinsmith/no-framework",
+    "description": "An example of a modern PHP application bootstrapped without a framework.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Kevin Smith",
+            "homepage": "https://kevinsmith.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laminas/laminas-diactoros": "^2.9",
+        "middlewares/fast-route": "^2.0",
+        "middlewares/request-handler": "^2.0",
+        "narrowspark/http-emitter": "^1.0|^2.0",
+        "php-di/php-di": "^6.3",
+        "relay/relay": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
